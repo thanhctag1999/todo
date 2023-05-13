@@ -1,0 +1,22 @@
+.alert {
+  width: 350px;
+  position: absolute;
+  right: 0;
+  z-index: 10;
+  animation-name: slide;
+  animation-direction: reverse;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+@-webkit-keyframes slide {
+  0% {
+    left: 0px;
+  }
+  25% {
+    left: 200px;
+  }
+  100% {
+    left: 0px;
+  }
+}

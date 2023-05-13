@@ -1,0 +1,70 @@
+.schedule-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 4%;
+  height: 90px;
+}
+.schedule-header h3 {
+  color: #a0a0a0;
+  font-size: 20px;
+}
+.schedule-button-add {
+  width: 35px !important;
+  height: 35px !important;
+  background-color: rgb(0, 132, 255) !important;
+  color: #fff !important;
+  border-radius: 15px !important;
+  border-top-right-radius: 0px !important;
+}
+.schedule-card {
+  width: 90%;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  border: none !important;
+  box-shadow: none !important;
+  margin-bottom: 15px;
+}
+.schedule-card a {
+  text-decoration: none !important;
+}
+.card-image {
+  width: 100%;
+  margin-left: 4%;
+}
+.card-image img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.card-typo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.card-icon {
+  cursor: pointer;
+}
+.card-menu-icon {
+  cursor: pointer;
+  margin-right: 10px;
+}
+.card-content {
+  padding: 10px !important;
+  padding-bottom: 0px !important;
+  cursor: pointer;
+}
+.card-title {
+  padding: 0px !important;
+  padding-left: 10px !important;
+}
+.card-time {
+  font-size: 14px;
+  color: #686868 !important;
+}
+#basic-menu {
+  width: 250px;
+}

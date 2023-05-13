@@ -1,0 +1,7 @@
+.notfound img {
+  width: 80%;
+  display: block;
+  margin: auto;
+  margin-top: 10%;
+  object-fit: cover;
+}

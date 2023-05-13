@@ -1,0 +1,81 @@
+.app {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  font-family: "Quicksand", sans-serif;
+  color: #222;
+}
+.sidebar {
+  width: 15%;
+  position: fixed;
+}
+.container {
+  margin-left: 15%;
+  padding-left: 2%;
+  width: 60%;
+  min-height: 100vh;
+  border-right: solid 1px #ccc;
+}
+.schedule {
+  width: 23%;
+  height: 100%;
+  position: fixed;
+  right: 0;
+  overflow-y: scroll;
+}
+.schedule::-webkit-scrollbar {
+  display: none;
+}
+
+/* Custom Scroll bar */
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #00a7d1;
+  border-radius: 2px;
+}
+
+/*Responsive*/
+@media only screen and (max-width: 1024px) {
+  .sidebar {
+    width: 5%;
+  }
+  .container {
+    width: 95%;
+    margin-left: 5%;
+    padding-left: 2%;
+    border-right: solid 1px #ccc;
+  }
+  .schedule {
+    display: none;
+  }
+  @media only screen and (max-width: 1024px) {
+    .container {
+      width: 95%;
+      margin-left: 15%;
+      padding-left: 2%;
+      border-right: solid 1px #ccc;
+    }
+    .schedule {
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .container {
+      width: 95%;
+      margin-left: 17%;
+      padding-left: 2%;
+      border-right: solid 1px #ccc;
+    }
+  }
+}

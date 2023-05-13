@@ -1,0 +1,89 @@
+header button {
+  text-transform: capitalize !important;
+}
+header h1 {
+  font-size: 30px;
+  color: #222;
+  font-weight: 600;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+.MuiTabs-flexContainer {
+  display: flex !;
+  justify-content: center;
+}
+.box-select {
+  width: 100%;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center;
+}
+.box-select label {
+  width: 95%;
+}
+
+.select-option {
+  width: 120px !important;
+  border-radius: 20px;
+  opacity: 0.8;
+  margin: 10px !important;
+  cursor: pointer;
+}
+.select-option select {
+  padding: 10px;
+  border-radius: 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+  text-align: center;
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: #a0a0a0;
+  cursor: pointer;
+}
+.select-option option {
+  background-color: #fff;
+  color: #222;
+  cursor: pointer;
+  font-size: 16px;
+}
+.custom-tab {
+  display: flex;
+  align-items: center;
+}
+.custom-tab span {
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+  padding: 3px;
+  background-color: #1588f331;
+  color: #1588f3;
+  border-radius: 50%;
+}
+.box-icon {
+  cursor: pointer;
+  color: #222;
+}
+.box-icon:hover {
+  color: #1588f3;
+}
+.box-form-lable {
+  margin: 10px;
+  margin-left: 15px !important;
+}
+.css-i9fmh8-MuiBackdrop-root-MuiModal-backdrop {
+  position: relative !important;
+}
+.dialog-content {
+  position: absolute !important;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+  border-radius: 15px;
+}
